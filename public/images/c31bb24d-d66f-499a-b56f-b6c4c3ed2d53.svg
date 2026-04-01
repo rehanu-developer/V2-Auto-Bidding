@@ -1,0 +1,27 @@
+<svg viewBox="-40 0 200 90" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="c" gradientTransform="rotate(-10)">
+      <stop offset="0" stop-color="#9b73f320"/>
+      <stop offset=".5" stop-color="#9b73f3"/>
+      <stop offset="1" stop-color="#f396e9"/>
+    </linearGradient>
+    <linearGradient id="a" gradientTransform="rotate(-30)">
+      <stop offset="0" stop-color="#ff44f1"/>
+      <stop offset="1" stop-color="#bf8eff"/>
+    </linearGradient>
+    <linearGradient id="b">
+      <stop offset="0" stop-color="#6561f2"/>
+      <stop offset="1" stop-color="#4a8ffb"/>
+    </linearGradient>
+  </defs>
+  <g stroke-width="12" fill="none">
+    <path d="M148 55v35" stroke="#fd9be8"/>
+    <path d="M98 90v-7a13 13 0 0 1 13-13h24a13 13 0 0 0 13-13V25a11 11 0 0 1 11-11h1" stroke="url(#a)"/>
+    <path d="M122 90V45a13 13 0 0 1 13-13h25" stroke="url(#b)"/>
+    <path d="M77 90V78a28 28 0 0 1 28-27h37m12 0h6" stroke="url(#c)" color="#c8c5fe24"/>
+  </g>
+  <circle cx="122" cy="51" r="6" fill="#fd9be8"/>
+  <circle cx="122" cy="70" r="6" fill="#ff44f1"/>
+  <circle cx="148" cy="32" r="6" fill="#4a5dfb"/>
+  <circle cx="148" cy="51" r="6" fill="#cb22ff"/>
+</svg>

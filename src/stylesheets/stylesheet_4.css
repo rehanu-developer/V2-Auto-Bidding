@@ -1,0 +1,33 @@
+.beamer_icon { position: relative; -webkit-font-smoothing: antialiased; opacity: 0; transition: opacity 0.5s ease-in; }
+.beamer_icon:hover, #beamerIcon:hover { cursor: pointer; opacity: 0.9; }
+.beamer_beamerSelectorRelative { position: relative; }
+.beamer_beamerSelector:hover { cursor: pointer; opacity: 0.9; }
+@media (max-width: 800px) {
+}
+@-webkit-keyframes beamer_pop-in { 
+  0% { opacity: 0; transform: scale(0.5); }
+  100% { opacity: 1; transform: scale(1); }
+}
+@keyframes beamer_pop-in { 
+  0% { opacity: 0; transform: scale(0.5); }
+  100% { opacity: 1; transform: scale(1); }
+}
+@-webkit-keyframes beamer_bounce { 
+  0%, 20%, 40%, 60%, 80%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-5px); }
+}
+@keyframes beamer_bounce { 
+  0%, 20%, 40%, 60%, 80%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-5px); }
+}
+@media (max-width: 800px) {
+}
+@media (min-width: 800px) {
+}
+@media (max-width: 800px) {
+}
+@media (max-width: 1200px) {
+}
+@media (max-width: 900px) {
+}
+.noBouncy { animation: auto ease 0s 1 normal none running none !important; }
